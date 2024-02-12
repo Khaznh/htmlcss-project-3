@@ -35,7 +35,8 @@ a {
 
 .container {
   width: 1170px;
-  margin: 0 auto 0;
+  margin: 0 auto;
+  max-width: calc(100% - 48px);
 }
 
 .container .body {
@@ -90,4 +91,154 @@ header {
 .Heading__sign-up {
   line-height: 1.75; /* 175% */
   padding: 8px 19px;
+}
+
+.hero {
+  margin-top: 66px;
+}
+
+.hero__info {
+  width: 43%;
+}
+
+.hero__heading {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -1.4px;
+}
+
+.hero__desc {
+  margin-top: 22px;
+
+  color: #c9d2da;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.66; /* 166.667% */
+}
+
+.hero-booked {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.hero__contact {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.66; /* 166.667% */
+}
+
+.hero__images {
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.larger {
+  width: 330px;
+  height: 540px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.smaller {
+  width: 210px;
+  height: 410px;
+  border-radius: 0px 6px 6px 0px;
+  object-fit: cover;
+}
+
+.service {
+  padding: 170px 0;
+}
+
+.grid-content {
+  display: grid;
+  grid-auto-rows: 1fr;
+}
+
+.service__heading {
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+}
+
+.service__desc {
+  /* margin-top: 18px; */
+  margin-top: -4px;
+  margin-bottom: 70px;
+  color: #575f66;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+}
+
+.sevice__image__content {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.service__info .item {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  width: 470px;
+  height: 128px;
+  border-radius: 10px;
+}
+
+.item__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #eff6fd;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 22px;
+}
+
+.service__info {
+  margin-left: auto;
+}
+
+.item__content {
+  margin-left: 19px;
+}
+
+.item__heading {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.item__desc {
+  color: #575f66;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+
+  width: 351px;
+
+  margin-top: 8px;
+}
+
+.service-btn {
+  display: inline-block;
+  margin-top: 43px;
 }
